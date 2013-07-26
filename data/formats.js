@@ -373,6 +373,32 @@ exports.BattleFormats = {
 		// no restrictions, for serious (other than team preview)
 		ruleset: ['Team Preview']
 	},
+	triplesdev: {
+		name: "Triples Dev",
+		section: 'Triples',
+
+		effectType: 'Format',
+		gameType: 'triples',
+		challengeShow: true,
+		searchShow: true,
+		rated: true,
+		ruleset: ['Pokemon', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'HP Percentage Mod'],
+		banlist: ['Unreleased', 'Illegal', 'Sky Drop', 'Dark Void', 'Soul Dew',
+			'Mewtwo',
+			'Lugia',
+			'Ho-Oh',
+			'Kyogre',
+			'Groudon',
+			'Rayquaza',
+			'Dialga',
+			'Palkia',
+			'Giratina', 'Giratina-Origin',
+			'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
+			'Reshiram',
+			'Zekrom',
+			'Kyurem-White'
+		]
+	},
 
 	// Other Metagames
 	///////////////////////////////////////////////////////////////////
